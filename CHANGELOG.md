@@ -4,7 +4,7 @@ All notable changes to this project are documented here. Each release entry uses
 
 ## [Unreleased]
 
-## [0.1.0] - 2026-08-12 01:41:55 CST
+## [0.1.0] - 2026-08-12 01:44:11 CST
 
 ### Added
 
@@ -20,6 +20,7 @@ All notable changes to this project are documented here. Each release entry uses
 ### Changed
 
 - Replaced the old single-engine assumption with a dispatcher that continues after extraction or download failure and preserves the attempted-backend evidence.
+- Updated GitHub Actions to the current Node 24-based `checkout` and `setup-python` v7 releases.
 - Scoped Suno and Udio parsing to the actual `clip`/`track` object after live pages exposed misleading app-shell metadata.
 - Converted full Douyin video URLs to the official `iesdouyin.com/share/video/{id}` form before local parsing.
 - Made signed query values redact automatically from `info` output and backend error logs.
