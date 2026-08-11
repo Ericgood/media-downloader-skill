@@ -1,0 +1,12 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "id": "7630701754065243414",
+    "title": "TikTok test",
+    "author": {"nickname": "Tester", "unique_id": "tester"},
+    "play": "/video/play.mp4",
+    "hdplay": "/video/hdplay.mp4",
+    "music": "https://cdn.example.test/music.mp3"
+  }
+}

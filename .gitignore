@@ -1,0 +1,26 @@
+.DS_Store
+.idea/
+.vscode/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Runtime tools and live-validation artifacts are never published.
+.local/
+skill/media-downloader/.tools/
+downloads/
+*.part
+
+# Authentication and local configuration.
+.env
+.env.*
+*.cookies
+cookies.txt

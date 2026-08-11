@@ -1,0 +1,8 @@
+{
+  "status": "picker",
+  "pickerType": "various",
+  "picker": [
+    {"type": "video", "url": "https://cobalt.example.test/video.mp4", "thumb": "https://cobalt.example.test/thumb.jpg"},
+    {"type": "photo", "url": "https://cobalt.example.test/photo.jpg"}
+  ]
+}

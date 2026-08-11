@@ -1,0 +1,24 @@
+{
+  "code": 200,
+  "tweet": {
+    "text": "Twitter test",
+    "author": {"name": "X Artist", "screen_name": "xartist"},
+    "article": {
+      "title": "Article test",
+      "media_entities": [
+        {
+          "media_id": "m1",
+          "media_info": {
+            "__typename": "ApiVideo",
+            "duration_millis": 10000,
+            "variants": [
+              {"content_type": "video/mp4", "bit_rate": 256000, "url": "https://video.example.test/low.mp4"},
+              {"content_type": "video/mp4", "bit_rate": 832000, "url": "https://video.example.test/high.mp4"},
+              {"content_type": "application/x-mpegURL", "url": "https://video.example.test/master.m3u8"}
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

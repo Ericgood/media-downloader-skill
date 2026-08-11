@@ -1,0 +1,4 @@
+interface:
+  display_name: "Media Downloader"
+  short_description: "Download and verify public video, audio, and music"
+  default_prompt: "Use $media-downloader to download this public video or music link and verify the saved file."
