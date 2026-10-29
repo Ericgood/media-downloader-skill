@@ -1,5 +1,11 @@
 # Media Downloader Skill
 
+> **本仓库已归档，不再更新（2026-10-29）。** 这个技能已并入作者的私有技能合集 `common-skills`，此后在那里继续维护。
+>
+> v0.1.0 的已知问题（2026-10-29 实测）：抖音分享页改版、Suno 不再向未登录用户提供 MP3，这两个平台用本仓库代码会下载失败；Udio 的音频改为 DRM 加密流，免登录已无法下载。TikTok、X/Twitter、B 站、YouTube 仍可用。
+>
+> **Archived (2026-10-29).** This skill now lives in the author's private `common-skills` collection. Known v0.1.0 breakage: Douyin and Suno downloads fail after site changes; Udio audio is now DRM-protected.
+
 一个可维护、可验证的公开媒体下载 Skill。它不是“把 URL 交给单一下载器然后祈祷成功”，而是按平台使用多级后端，在真实文件落盘后用 `ffprobe` 验证音视频流，再报告成功。
 
 当前一等支持 TikTok、抖音、X/Twitter、Bilibili、Suno 与 Udio；YouTube 和其他站点通过 `yt-dlp` 覆盖。支持视频、音频提取、AI 音乐原始音频、封面、歌词、元数据、字幕、播放列表与多 URL 批量下载。
